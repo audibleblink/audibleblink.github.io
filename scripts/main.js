@@ -15,15 +15,13 @@ Portfolio = {
   setListeners: function(){
     var $img = $('.img-container')
     if(  $(window).width()  <= 800  ) {
-    $img
-      .on('click', function(){ $(this).find('.caption').slideDown('200')})
-      .on('click', function(){ $(this).find('.caption').slideUp('200')})    
-      // $img.toggle(function() { $(this).find(".caption").slideDown('200'); }, function() { $(this).find(".caption").slideUp('200'); })    
-    } 
+      $img
+        .on('click', function(){ $(this).find('.caption').slideToggle('200') })
+      } 
     else {
       $img
-        .on('mouseenter', function(){ $(this).find('.caption').slideDown('200')})
-        .on('mouseleave', function(){ $(this).find('.caption').slideUp('200')})    
+        .on('mouseenter', function(){ $(this).find('.caption').slideDown('200') })
+        .on('mouseleave', function(){ $(this).find('.caption').stop().slideUp('200') })    
     }
   }
 }
