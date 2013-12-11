@@ -1179,44 +1179,42 @@ body, body * {
     font-size: 15pt; }
 
 li {
-  background-size: cover;
-  display: table; }
-  li #section-2 {
-    background-image: url("../images/section1_bg.jpg"); }
-  li #section-3 {
-    background: url("../images/section2_bg.jpg") black no-repeat center; }
-  li #section-4 {
-    background: url("../images/section3_bg.jpg") black no-repeat right top; }
-  li #section-1 {
-    background: url("../images/section4_bg.jpg") black no-repeat center !important; }
+  background-size: cover; }
 
-.main .row {
+#section-2 {
+  background-image: url("../images/section1_bg.jpg"); }
+
+#section-4 {
+  background: url("../images/section2_bg.jpg") black no-repeat center; }
+
+#section-3 {
+  background: url("../images/section3_bg.jpg") black no-repeat right top; }
+
+#section-1 {
+  background: url("../images/section4_bg.jpg") black no-repeat center !important; }
+
+.curtains .row {
   vertical-align: middle;
   display: table-cell; }
-  .main .row img {
+  .curtains .row img {
     box-shadow: 5px 5px 15px black;
     padding: 0; }
-  .main .row .container {
+  .curtains .row .container {
     background-color: rgba(30, 30, 30, 0.4);
     width: 103%;
     padding: 35px;
     margin: 0 15px 0 -16px;
     box-shadow: 5px 5px 55px black; }
-  .main .row .lightcontainer {
-    background-color: rgba(30, 30, 30, 0.4);
-    width: 103%;
-    padding: 35px;
-    margin: 0 15px 0 -15px; }
-  .main .row .desc {
+  .curtains .row .desc {
     color: #eeeeee;
     font-family: FontAwesome, helvetica, monospace;
     font-size: 18pt;
     text-shadow: 3px 3px 8px rgba(12, 12, 12, 0.5);
     padding: 10px 0 10px 0;
     font-weight: lighter; }
-    .main .row .desc a {
+    .curtains .row .desc a {
       margin: 0 15px 15px 0; }
-    .main .row .desc a:hover {
+    .curtains .row .desc a:hover {
       text-decoration: none; }
 
 .navbar .navbar-text {
@@ -1255,7 +1253,7 @@ i {
   .navbar-text {
     margin-left: 25px; }
 
-  .main .row .container {
+  .curtains .row .container {
     width: 100%;
     margin: 0;
     box-shadow: 0px 0 0; } }

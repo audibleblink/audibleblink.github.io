@@ -13,7 +13,7 @@ html{
     -webkit-transform:translateZ(0);
     background: white;
     position: fixed;
-    display:block;
+    display:table;
     top: 0;
     left: 0;
     width: 100%;
