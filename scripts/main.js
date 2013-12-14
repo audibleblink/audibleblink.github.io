@@ -8,7 +8,7 @@ Portfolio = {
   start: function() {
     $(".main").onepage_scroll({
       animationTime:600,
-      responsiveFallback:800
+      responsiveFallback:800,
     })  
   },
 
